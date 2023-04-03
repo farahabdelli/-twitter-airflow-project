@@ -18,7 +18,7 @@ def run_twitter_etl():
 
     # # # Creating an API object 
     api = tweepy.API(auth)
-    tweets = api.user_timeline(screen_name='@elonmusk', 
+    tweets = api.user_timeline(screen_name='@macron', 
                             # 200 is the maximum allowed count
                             count=200,
                             include_rts = False,
